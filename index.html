@@ -14,19 +14,25 @@
         <div class="forms-container">
             <div class="login-signup">
 
-                <form action="#" class="log-in-form">
+                <form action="login.php" method="POST" class="log-in-form">
+                    <!--
+                    <input type="email" placeholder="Email" name="email" required />
+                    <input type="password" placeholder="Password" name="password" required />
+                    <button type="submit" class="btn solid">Login </button>
+                    -->
+
                     <h2 class="title">Login</h2>
                     <div class="input-field">
                         <i class="fas fa-user"></i>
-                        <input type="text" placeholder="Email" />
+                        <input type="email" placeholder="Email" name="email" required />
                     </div>
                     <div class="input-field">
                         <i class="fas fa-lock"></i>
-                        <input type="password" placeholder="Password" />
+                        <input type="password" placeholder="Password" name="password" required />
                     </div>
-                    <input type="submit" value="Login" class="btn solid" />
+                    <button type="submit" class="btn solid">Login </button>
                     <p>Don't have and account? <a id="sign-up-btn">Sign Up</a></p>
-                  
+
                 </form>
 
                 <form action="#" class="sign-up-form">
@@ -50,7 +56,7 @@
                     <input type="submit" class="btn" value="Sign up" />
                     <p>Already have and account? <a id="log-in-btn">Login</a></p>
 
-                    
+
                 </form>
             </div>
         </div>
@@ -64,9 +70,9 @@
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis,
                         ex ratione. Aliquid!
                     </p>
-                   
+
                 </div>
-                <img src="Image/log.svg" class="image" alt="" />
+                <img src="Image/log.svg" class="image" alt="login-image" />
             </div>
         </div>
     </div>
