@@ -39,7 +39,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
         else { 
             #remains on the login displaying invalid details
             header("location:login.php?Invalid=The username and password are incorrect!");
-            mysqli_error($db_connection);
+            
             
         } 
 
