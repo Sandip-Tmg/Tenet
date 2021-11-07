@@ -1,1 +1,1 @@
-Socail Networking App for Bloggers
+Social Networking App for Bloggers
